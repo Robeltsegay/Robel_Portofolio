@@ -96,8 +96,8 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">My Portfolio</h5>
                 <h4 className="project__text">react based Portfolio.</h4>
-                <a href="#" className="project__btn">
-                  View Details
+                <a href="" className="project__btn">
+                  View Code
                 </a>
               </div>
             </div>
