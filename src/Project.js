@@ -2,9 +2,8 @@ import React from "react";
 import "./Project.css";
 import Project1 from "./img/portfolio-1.jpg";
 import Project2 from "./img/portfolio-2.jpg";
-import Download1 from "./img/download1.jpeg";
-
 import Project4 from "./img/portfolio-4.jpg";
+import Download1 from "./img/portfolio-4.jpg";
 
 function Project() {
   return (
@@ -21,18 +20,17 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project1} alt="" className="project__img" />
+                  <img src={Project2} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Book Store</h5>
                 <h4 className="project__text">
-                  This ongoing project which is React based system to store
-                  Books.
+                  This react To-Do-List.it is stores tasks with remainder.
                 </h4>
                 <a
-                  href="https://github.com/Robeltsegay/Book-Store_1"
+                  href="https://github.com/Robeltsegay/My-Todo-List"
                   className="project__btn"
                 >
                   View Code
@@ -54,7 +52,10 @@ function Project() {
                 <h4 className="project__text">
                   this project is my Bachelor Degree final project.
                 </h4>
-                <a href="#" className="project__btn">
+                <a
+                  href="https://github.com/Robeltsegay/Reaserch-HUb"
+                  className="project__btn"
+                >
                   View Code
                 </a>
               </div>
@@ -65,7 +66,7 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Download1} alt="" className="project__img" />
+                  <img src={Project2} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
