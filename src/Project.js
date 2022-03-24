@@ -25,9 +25,9 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Book Store</h5>
+                <h5 className="project__text">To-Do-List</h5>
                 <h4 className="project__text">
-                  This react To-Do-List.it is stores tasks with remainder.
+                  This is React based To-Do-List.It stores tasks with remainder.
                 </h4>
                 <a
                   href="https://github.com/Robeltsegay/My-Todo-List"
@@ -50,7 +50,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Ethiopian Research Hub</h5>
                 <h4 className="project__text">
-                  this project is my Bachelor Degree final project.
+                  This project is my Bachelor Degree final project.
                 </h4>
                 <a
                   href="https://github.com/Robeltsegay/Reaserch-HUb"
@@ -73,7 +73,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Collection</h5>
                 <h4 className="project__text">
-                  this is Collection of different reusable React Components that
+                  This is Collection of different reusable React Components that
                   help on the way of developing website.
                 </h4>
                 <a
@@ -96,7 +96,7 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">My Portfolio</h5>
-                <h4 className="project__text">react based Portfolio.</h4>
+                <h4 className="project__text">React based Portfolio.</h4>
                 <a
                   href="https://github.com/Robeltsegay/Robel_Portofolio"
                   className="project__btn"

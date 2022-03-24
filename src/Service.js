@@ -39,7 +39,9 @@ function Service() {
                 <p className="p service__text p__color">
                   Mainly Front-end developer
                 </p>
-                <p className="p service__text p__color">i love React.</p>
+                <p className="p service__text p__color">
+                  I Love to Code React.
+                </p>
               </div>
             </div>
           </div>
@@ -67,10 +69,10 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Translation</h1>
                 <p className="p service__text p__color">
-                  I can work different language translations projects.
+                  I can work translations projects.
                 </p>
                 <p className="p service__text p__color">
-                  i can take Tigrigna,Amharic,English
+                  Tigrigna,Amharic,Afar,Afaan-oromo,English translations
                 </p>
                 {/* <p className="p service__text p__color">Tigrignya-English</p> */}
               </div>

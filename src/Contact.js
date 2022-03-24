@@ -69,7 +69,7 @@ const Contact = () => {
               <input
                 //   style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
-                placeholder="enter subject"
+                placeholder="subject"
                 name="user_subject"
               />
               <input
@@ -85,7 +85,7 @@ const Contact = () => {
                 name="message"
               />
               <button>Submit</button>
-              {done && "Thank you..."}
+              {done && <h6 style={{ color: "green" }}>Massage Sent.</h6>}
             </form>
           </div>
         </div>
