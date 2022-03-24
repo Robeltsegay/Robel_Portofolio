@@ -1,7 +1,6 @@
 import React from "react";
 import About from "./About";
 import "./App.css";
-import Blog from "./Blog";
 import Footer from "./Footer";
 import Home from "./Home";
 import Project from "./Project";
@@ -15,7 +14,6 @@ function App() {
       <About />
       <Service />
       <Project />
-      {/* <Blog /> */}
       <Contact />
       <Footer />
     </div>
