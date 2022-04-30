@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(0, 33, 65);
+}
+.nav__brand {
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+.home__content {
+  padding: 125px 0px;
+}
+h1.home__text {
+  font-size: 18px;
+
+  letter-spacing: 3px;
+  color: rgba(198, 201, 216, 0.75) !important;
+}
+h2.home__text {
+  font-size: 54px;
+  line-height: 54px;
+  font-family: Montserrat, sans-serif;
+}
+h3.home__text {
+  font-size: 50px;
+
+  font-family: Montserrat, sans-serif;
+  line-height: 40px;
+}
+h4.home__text {
+  font-size: 50px;
+
+  line-height: 40px;
+  font-family: Montserrat, sans-serif;
+}
+
+/* @media screen and (max-width: 768px) { */
+@media only screen and (max-width: 425px) {
+  h2.home__text.pz__10 {
+    font-size: 32px;
+  }
+  h3.sweet.pz__10 {
+    font-size: 40px;
+    width: 25%;
+  }
+  h1.home__text {
+    font-size: 14px;
+  }
+  /* h4.home__text {
+    font-size: 45px;
+    color: aqua;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  } */
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 100%;
+    border: 2px red solid;
+  }
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    height: 50vh;
+    /* width: 40vw; */
+    background: rgb(30, 51, 72);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  h2.white.pz__10 {
+    font-size: 50px !important;
+  }
+}
+
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+  border: 2px red solid;
+}
+.toggle .line2 {
+  opacity: 0;
+  border: 2px red solid;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+  border: 2px red solid;
+}
